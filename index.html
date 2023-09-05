@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
   </head>
   <body>
@@ -26,14 +28,14 @@
         <option value="buenos-aries">Buenos Aires 🇦🇷</option>
       </select>
       <ul>
-        <div class="city">
+        <div class="city" id="phoenix">
           <div>
             <li>Phoenix 🇺🇸</li>
             <div class="date">September 5th, 2023</div>
           </div>
           <div class="time">5:39 <small>P.M.</small></div>
         </div>
-        <div class="city">
+        <div class="city" id="rome">
           <div>
             <li>Rome 🇮🇹</li>
             <div class="date">September 5th, 2023</div>
