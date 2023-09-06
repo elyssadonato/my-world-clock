@@ -7,7 +7,7 @@ body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/019/original/marbel-background.png?1694024422);
   background-size: cover;
   color: #fdfdfd;
-  font-family: "Jura", sans-serif;
+  font-family: "Marcellus SC", serif;
   margin: 60px;
 }
 h1 {
@@ -60,7 +60,7 @@ a:hover {
 }
 .time {
   color: var(--primary-color);
-  font-family: Michroma, sans-serif;
+  font-family: "Michroma", sans-serif;
   font-size: 32px;
 }
 .time small {
