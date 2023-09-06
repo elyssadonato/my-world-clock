@@ -1,16 +1,19 @@
 :root {
-  --primary-color: #16161e;
-  --secondary-color: #24283b;
+  --primary-color: #cabc65;
+  --secondary-color: #050304;
   --aspect-color: #efefef;
 }
 body {
-  background-color: var(--primary-color);
-  color: #99a1c5;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/019/original/marbel-background.png?1694024422);
+  background-size: cover;
+  color: #fdfdfd;
+  font-family: "Jura", sans-serif;
   margin: 60px;
 }
 h1 {
-  color: #88ddff;
-  font-size: 48px;
+  color: #cabc65;
+  font-size: 52px;
+  font-weight: bold;
   text-align: center;
 }
 select {
@@ -31,7 +34,7 @@ h2 {
   display: block;
   margin: 0 auto;
   max-width: 600px;
-  padding: 18px 50px;
+  padding: 18px 25px;
 }
 .city {
   display: flex;
@@ -46,13 +49,17 @@ h2 {
   padding-bottom: 10px;
 }
 .time {
-  font-size: 36px;
-  font-weight: bold;
+  color: var(--primary-color);
+  font-family: Michroma, sans-serif;
+  font-size: 32px;
 }
 .time small {
+  color: var(--primary-color);
   font-size: 18px;
   vertical-align: middle;
 }
 footer {
+  color: var(--secondary-color);
+  font-weight: bold;
   text-align: center;
 }
