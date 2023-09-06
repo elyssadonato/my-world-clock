@@ -1,7 +1,7 @@
 :root {
   --primary-color: #cabc65;
   --secondary-color: #050304;
-  --aspect-color: #efefef;
+  --aspect-color: #fdfdfd;
 }
 body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/019/original/marbel-background.png?1694024422);
@@ -47,9 +47,10 @@ a:hover {
   padding: 18px 25px;
 }
 .city {
+  border-bottom: 2px dashed var(--aspect-color);
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px dashed #99a1c5;
+  padding: 4px;
 }
 .city:last-child {
   border: none;

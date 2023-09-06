@@ -39,12 +39,12 @@ function updateCurrentTime() {
   sydneyTimeElement.innerHTML = currentSydneyTime.format(
     "h:mm:ss [<small>]A[<small>]"
   );
-  let berlinElement = document.querySelector("#berlin");
-  let berlinDateElement = berlinElement.querySelector(".date");
-  let berlinTimeElement = berlinElement.querySelector(".time");
-  let currentBerlinTime = moment().tz("Europe/Berlin");
-  berlinDateElement.innerHTML = currentBerlinTime.format("MMMM Do, YYYY");
-  berlinTimeElement.innerHTML = currentBerlinTime.format(
+  let jerusalemElement = document.querySelector("#jerusalem");
+  let jerusalemDateElement = jerusalemElement.querySelector(".date");
+  let jerusalemTimeElement = jerusalemElement.querySelector(".time");
+  let currentJerusalemTime = moment().tz("Asia/Jerusalem");
+  jerusalemDateElement.innerHTML = currentJerusalemTime.format("MMMM Do, YYYY");
+  jerusalemTimeElement.innerHTML = currentJerusalemTime.format(
     "h:mm:ss [<small>]A[<small>]"
   );
 }
