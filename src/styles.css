@@ -27,6 +27,9 @@ h2 {
   font-size: 28px;
   font-weight: bold;
 }
+strong {
+  font-weight: bold;
+}
 .container {
   background-color: var(--secondary-color);
   border-radius: 8px;
