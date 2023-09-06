@@ -30,6 +30,9 @@ h2 {
 strong {
   font-weight: bold;
 }
+a {
+  color: var(--primary-color);
+}
 .container {
   background-color: var(--secondary-color);
   border-radius: 8px;
